@@ -1,50 +1,70 @@
 .about-container {
-    padding: 20px;
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Arial, sans-serif';
-    background-color: #fef9f4;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
   }
   
   .about-heading {
     font-size: 2.5rem;
+    color: #333;
     text-align: center;
-    color: #f28c8c;
     margin-bottom: 20px;
-  }
-  
-  .about-text {
-    font-size: 1rem;
-    line-height: 1.8;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .about-image-section {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .about-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
   
   .about-subheading {
     font-size: 1.8rem;
-    color: #f28c8c;
+    color: #555;
     margin-top: 30px;
-    margin-bottom: 10px;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
   }
   
   .about-list {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.8;
-    margin-left: 20px;
+    list-style: disc;
+    margin: 20px 0 20px 20px;
+    padding-left: 10px;
+    color: #444;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .team-designation {
+    font-size: 0.9rem;
+    color: #777;
   }
   
