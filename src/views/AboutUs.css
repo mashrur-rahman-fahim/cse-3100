@@ -1,0 +1,50 @@
+.about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial, sans-serif';
+    background-color: #fef9f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #f28c8c;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-image-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-subheading {
+    font-size: 1.8rem;
+    color: #f28c8c;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .about-list {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-left: 20px;
+  }
+  
